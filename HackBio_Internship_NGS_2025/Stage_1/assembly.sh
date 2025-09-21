@@ -3,8 +3,8 @@
    # Description: To assemble trimmed reads into genomes using SPAdes.
 
    # Set directories
-   TRIMMED_DATA_DIR="../data/trimmed_data"
-   ASSEMBLY_DIR="../results/assembly"
+   TRIMMED_DATA_DIR="Opemidimeji/data/trimmed_data"
+   ASSEMBLY_DIR="Opemidimeji/results/assembly"
 
    # Create the output directory
    echo "Creating output directory: $ASSEMBLY_DIR"

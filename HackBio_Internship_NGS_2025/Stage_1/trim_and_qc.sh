@@ -3,10 +3,10 @@
    # Description: To perform trimming with fastp followed by quality control on trimmed data.
 
    # Set directories
-   RAW_DATA_DIR="../data/raw_data_50"
-   TRIMMED_DATA_DIR="../data/trimmed_data"
-   FASTP_REPORT_DIR="../data/results/fastp_reports"
-   TRIMMED_QC_DIR="../data/results/trimmed_fastqc_reports"
+   RAW_DATA_DIR="Opemidimeji/data/raw_data_50"
+   TRIMMED_DATA_DIR="Opemidimeji/data/trimmed_data"
+   FASTP_REPORT_DIR="Opemidimeji/data/results/fastp_reports"
+   TRIMMED_QC_DIR="Opemidimeji/data/results/trimmed_fastqc_reports"
 
    # Create the output directories
    echo "Creating output directories..."

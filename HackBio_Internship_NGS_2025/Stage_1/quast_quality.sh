@@ -3,8 +3,8 @@
    # Description: To run QUAST quality assessment on assembled genomes.
 
    # Set directories
-   ASSEMBLY_DIR="../results/assembly"
-   QUAST_DIR="../results/quast_reports"
+   ASSEMBLY_DIR="Opemidimeji/results/assembly"
+   QUAST_DIR="Opemidimeji/results/quast_reports"
 
    # Create the output directory
    echo "Creating output directory: $QUAST_DIR"

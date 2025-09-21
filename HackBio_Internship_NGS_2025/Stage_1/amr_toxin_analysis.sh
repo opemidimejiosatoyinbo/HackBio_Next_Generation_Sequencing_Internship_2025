@@ -3,8 +3,8 @@
 # Description: To run ABRicate for AMR and toxin gene detection.
 
 # Set directories
-ASSEMBLY_DIR="../results/assembly"
-ABRICATE_DIR="../results/abricate_results"
+ASSEMBLY_DIR="Opemidimeji/results/assembly"
+ABRICATE_DIR="Opemidimeji/results/abricate_results"
 
 # Create the output directories
 echo "Creating output directories..."

@@ -3,8 +3,8 @@
       # Description: To run FastQC on raw sequencing data for initial quality assessment.
 
       # Set the directories for clarity
-      RAW_DATA_DIR="../data/raw_data_50"
-      QC_OUTPUT_DIR="../results/raw_fastqc_reports"
+      RAW_DATA_DIR="Opemidimeji/data/raw_data_50"
+      QC_OUTPUT_DIR="Opemidimeji/results/raw_fastqc_reports"
 
       # Create the output directory if it doesn't exist
       echo "Creating output directory: $QC_OUTPUT_DIR"

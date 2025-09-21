@@ -31,8 +31,8 @@ In early 2017, hospitals across South Africa began reporting an unusual rise in 
 1.  **Create a Project Directory Structure, for instance:**
 
     ```bash
-    mkdir opemidimeji_hackbio_microbes
-    cd opemidimeji_hackbio_microbes
+    mkdir Opemidimeji
+    cd Opemidimeji
     mkdir -p data/raw_data scripts results
 
     ```
@@ -84,8 +84,8 @@ In early 2017, hospitals across South Africa began reporting an unusual rise in 
    # Description: To choose 50 samples randomly from the raw_data
 
    # Set directories
-   PARENT_DIR="../data/raw_data"
-   RAW_DATA_50="../data/raw_data_50"
+   PARENT_DIR="Opemidimeji/data/raw_data"
+   RAW_DATA_50="Opemidimeji/data/raw_data_50"
 
    # Create a destination directory
    mkdir -p "$RAW_DATA_50"
@@ -113,8 +113,8 @@ In early 2017, hospitals across South Africa began reporting an unusual rise in 
       # Description: To run FastQC on raw sequencing data for initial quality assessment.
 
       # Set the directories for clarity
-      RAW_DATA_DIR="../data/raw_data_50"
-      QC_OUTPUT_DIR="../results/raw_fastqc_reports"
+      RAW_DATA_DIR="Opemidimeji/data/raw_data_50"
+      QC_OUTPUT_DIR="Opemidimeji/results/raw_fastqc_reports"
 
       # Create the output directory if it doesn't exist
       echo "Creating output directory: $QC_OUTPUT_DIR"
@@ -168,10 +168,10 @@ In early 2017, hospitals across South Africa began reporting an unusual rise in 
    # Description: To perform trimming with fastp followed by quality control on trimmed data.
 
    # Set directories
-   RAW_DATA_DIR="../data/raw_data_50"
-   TRIMMED_DATA_DIR="../data/trimmed_data"
-   FASTP_REPORT_DIR="../data/results/fastp_reports"
-   TRIMMED_QC_DIR="../data/results/trimmed_fastqc_reports"
+   RAW_DATA_DIR="Opemidimeji/data/raw_data_50"
+   TRIMMED_DATA_DIR="Opemidimeji/data/trimmed_data"
+   FASTP_REPORT_DIR="Opemidimeji/data/results/fastp_reports"
+   TRIMMED_QC_DIR="Opemidimeji/data/results/trimmed_fastqc_reports"
 
    # Create the output directories
    echo "Creating output directories..."
@@ -274,8 +274,8 @@ In early 2017, hospitals across South Africa began reporting an unusual rise in 
    # Description: To assemble trimmed reads into genomes using SPAdes.
 
    # Set directories
-   TRIMMED_DATA_DIR="../data/trimmed_data"
-   ASSEMBLY_DIR="../results/assembly"
+   TRIMMED_DATA_DIR="Opemidimeji/data/trimmed_data"
+   ASSEMBLY_DIR="Opemidimeji/results/assembly"
 
    # Create the output directory
    echo "Creating output directory: $ASSEMBLY_DIR"
@@ -350,8 +350,8 @@ In early 2017, hospitals across South Africa began reporting an unusual rise in 
    # Description: To run QUAST quality assessment on assembled genomes.
 
    # Set directories
-   ASSEMBLY_DIR="../results/assembly"
-   QUAST_DIR="../results/quast_reports"
+   ASSEMBLY_DIR="Opemidimeji/results/assembly"
+   QUAST_DIR="Opemidimeji/results/quast_reports"
 
    # Create the output directory
    echo "Creating output directory: $QUAST_DIR"
@@ -414,8 +414,8 @@ Abricate checks against multiple databases: ncbi (for AMR) and vfdb (Virulence F
 # Description: To run ABRicate for AMR and toxin gene detection.
 
 # Set directories
-ASSEMBLY_DIR="../results/assembly"
-ABRICATE_DIR="../results/abricate_results"
+ASSEMBLY_DIR="Opemidimeji/results/assembly"
+ABRICATE_DIR="Opemidimeji/results/abricate_results"
 
 # Create the output directories
 echo "Creating output directories..."
@@ -504,8 +504,8 @@ echo "Next step: Analyze the results and generate final report"
 # Script: blast_confirm.sh
 # Description: to run BLAST on a single representative sample for organism identification.
 
-ASSEMBLY_DIR="../results/assembly"
-BLAST_DIR="../results/blast"
+ASSEMBLY_DIR="Opemidimeji/results/assembly"
+BLAST_DIR="Opemidimeji/results/blast"
 mkdir -p "$BLAST_DIR"
 
 echo "Running BLAST for organism identification (rubric requirement)..."

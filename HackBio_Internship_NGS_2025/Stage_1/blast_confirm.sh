@@ -2,8 +2,8 @@
 # Script: blast_confirm.sh
 # Description: to run BLAST on a single representative sample for organism identification.
 
-ASSEMBLY_DIR="../results/assembly"
-BLAST_DIR="../results/blast"
+ASSEMBLY_DIR="Opemidimeji/results/assembly"
+BLAST_DIR="Opemidimeji/results/blast"
 mkdir -p "$BLAST_DIR"
 
 echo "Running BLAST for organism identification (rubric requirement)..."

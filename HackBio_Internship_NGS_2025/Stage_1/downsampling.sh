@@ -3,8 +3,8 @@
    # Description: To choose 50 samples randomly from the raw_data
 
    # Set directories
-   PARENT_DIR="../data/raw_data"
-   RAW_DATA_50="../data/raw_data_50"
+   PARENT_DIR="Opemidimeji/data/raw_data"
+   RAW_DATA_50="Opemidimeji/data/raw_data_50"
 
    # Create a destination directory
    mkdir -p "$RAW_DATA_50"
