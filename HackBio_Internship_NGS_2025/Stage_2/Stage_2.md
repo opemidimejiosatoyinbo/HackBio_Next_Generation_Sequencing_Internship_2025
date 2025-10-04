@@ -1,9 +1,9 @@
-# **Transcroptomic Profiling of _Staphylococcus aureus_ During Acute vs Cgronic Phases of Periprosthetic Joint Infection (PJI)**
+# **Transcriptomic Profiling of _Staphylococcus aureus_ During Acute vs Chronic Phases of Periprosthetic Joint Infection (PJI)**
 
 Name: Opemidimeji Osatoyinbo\
 Slack ID: @Opemidimeji Osatoyinbo\
 GitHub Repository: https://github.com/opemidimejiosatoyinbo/HackBio_Next_Generation_Sequencing_Internship_2025/tree/main/HackBio_Internship_NGS_2025/Stage_2\
-LinkedIn Post: \
+LinkedIn Post: https://www.linkedin.com/posts/opemidimejiosatoyinbo_hackbio-hackbiongs25-bioinformatics-activity-7380168755437355008-M_Ys?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC5tvzAB1zGFKDJ7_QP_hzYQGf2Owvw9A4M\
 
 ---
 
