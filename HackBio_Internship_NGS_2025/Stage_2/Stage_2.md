@@ -702,7 +702,7 @@ This reinforces the differential expression results:
 - **Acute → virulence invasion signature**
 - **Chronic → biofilm persistence signature**
 
-![PCA](Results/PCA.png)
+![PCA](Result/PCA.png)
 
 ---
 
@@ -720,7 +720,7 @@ Two volcano plots were generated:
    - Highlights genes with raw _p < 0.05_ and |log2FC| ≥ 1.
    - Shows **initial trends**, but may include false positives due to multiple testing.
 
-   ![Volcano (pvalue)](Results/volcano.png)
+   ![Volcano (pvalue)](Result/volcano.png)
 
 2. **Volcano (padj cutoff)**
 
@@ -730,7 +730,7 @@ Two volcano plots were generated:
      - **Acute samples** → upregulation of toxins and adhesins.
      - **Chronic samples** → upregulation of stress and persistence genes.
 
-   ![Volcano (padj)](Results/volcano_padjadj.png)
+   ![Volcano (padj)](Result/volcano_padjadj.png)
 
 **Interpretation:**
 
@@ -750,7 +750,7 @@ Heatmaps provide an overview of how expression patterns separate acute and chron
    - Samples cluster into two clear groups: **acute vs chronic**, confirming that transcriptional profiles reflect infection type.
    - Acute isolates show enrichment of genes linked to **virulence, adhesion, and toxin production**, while chronic isolates cluster with **stress response and persistence factors**.
 
-   ![Heatmap Top50](Results/heatmap_top50.png)
+   ![Heatmap Top50](Result/heatmap_top50.png)
 
 2. **Top 500 Differentially Expressed Genes**
 
@@ -760,7 +760,7 @@ Heatmaps provide an overview of how expression patterns separate acute and chron
      - **Acute samples** = higher expression of pathogenesis-related genes.
      - **Chronic samples** = upregulation of survival and metabolic adaptation genes.
 
-   ![Heatmap Top500](Results/heatmap_top500.png)
+   ![Heatmap Top500](Result/heatmap_top500.png)
 
 **Interpretation:**
 
